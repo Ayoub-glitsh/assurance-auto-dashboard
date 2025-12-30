@@ -206,147 +206,80 @@ ou téléchargeable directement depuis l’interface de l’application.
 </p>
 
 
-\## 📁 Structure du Projet
+## 📁 Structure du Projet
 
   
 
-\`\`\`
+```
 
 assurance-auto-dashboard/
 
 │
-
 ├── index.html                    # Page principale
-
 ├── README.md                     # Documentation
+├── Aguezar_Ayoub.xlsx                      # Licence MIT
+├── Aguezar_Ayoub.ppdx                  # Ressources statiques
+│   Aguezar_Ayoub.pdf                    # Styles CSS
+│   
 
-├── LICENSE                       # Licence MIT
 
-│
+```
 
-├── assets/                       # Ressources statiques
 
-│   ├── css/                      # Styles CSS
+  ## 🔧 Configuration
 
-│   │   └── style.css             # Styles personnalisés
+### Personnalisation du thème
 
-│   ├── js/                       # Scripts JavaScript
+Modifiez `assets/css/style.css` pour changer les couleurs :
 
-│   │   └── main.js               # Logique principale
-
-│   └── img/                      # Images
-
-│       └── screenshot.png        # Capture d'écran
-
-│
-
-├── examples/                     # Exemples de données
-
-│   ├── exemple\_contrats.xlsx     # Fichier Excel exemple
-
-│   └── sample\_data.json          # Données JSON exemple
-
-│
-
-└── docs/                         # Documentation supplémentaire
-
-    ├── requirements.md           # Spécifications
-
-    └── screenshot/               # Captures d'écran
-
-\`\`\`
-
-  
-
-\## 🔧 Configuration
-
-  
-
-\### Personnalisation du thème
-
-Modifiez \`assets/css/style.css\` pour changer les couleurs :
-
-  
-
-\`\`\`css
-
+```css
 :root {
-
-    --primary-color: #1e3c72;     /\* Couleur principale \*/
-
-    --secondary-color: #2a5298;   /\* Couleur secondaire \*/
-
-    --accent-color: #198754;      /\* Couleur d'accent \*/
-
-    --text-color: #333;           /\* Couleur du texte \*/
-
+    --primary-color: #1e3c72;     /* Couleur principale */
+    --secondary-color: #2a5298;   /* Couleur secondaire */
+    --accent-color: #198754;      /* Couleur d'accent */
+    --text-color: #333;           /* Couleur du texte */
 }
-
-\`\`\`
-
+ ```
   
 
-\### Ajout de nouvelles fonctionnalités
+### Ajout de nouvelles fonctionnalités
 
-1\. Modifiez \`assets/js/main.js\` pour ajouter de nouvelles fonctionnalités
+1. Modifiez `assets/js/main.js` pour ajouter de nouvelles fonctionnalités
+2. Ajoutez les éléments HTML correspondants dans `index.html`
+3. Personnalisez le style dans `assets/css/style.css`
 
-2\. Ajoutez les éléments HTML correspondants dans \`index.html\`
+---
 
-3\. Personnalisez le style dans \`assets/css/style.css\`
-
-  
-
-\## 📱 Compatibilité
-
-  
+## 📱 Compatibilité
 
 | Navigateur | Version minimale | Statut |
+|------------|-----------------|--------|
+| Chrome     | 60+             | ✅ Compatible |
+| Firefox    | 55+             | ✅ Compatible |
+| Safari     | 12+             | ✅ Compatible |
+| Edge       | 79+             | ✅ Compatible |
+| Opera      | 50+             | ✅ Compatible |
 
-|------------|------------------|--------|
 
-| Chrome | 60+ | ✅ Compatible |
+## 🧪 Tests
 
-| Firefox | 55+ | ✅ Compatible |
+### Test des fonctionnalités
 
-| Safari | 12+ | ✅ Compatible |
+1. Importez le fichier exemple `exemples/exemple_contrats.xlsx`
+2. Vérifiez que tous les indicateurs s'affichent correctement
+3. Testez chaque filtre individuellement
+4. Vérifiez le responsive sur différentes tailles d'écran
 
-| Edge | 79+ | ✅ Compatible |
+### Validation des données
 
-| Opera | 50+ | ✅ Compatible |
+- [x] Import Excel fonctionnel
+- [x] Calculs automatiques corrects
+- [x] Filtres dynamiques opérationnels
+- [x] Animations fluides
+- [x] Interface responsive
 
-  
 
-\## 🧪 Tests
-
-  
-
-\### Test des fonctionnalités
-
-1\. Importez le fichier exemple \`exemples/exemple\_contrats.xlsx\`
-
-2\. Vérifiez que tous les indicateurs s'affichent correctement
-
-3\. Testez chaque filtre individuellement
-
-4\. Vérifiez le responsive sur différentes tailles d'écran
-
-  
-
-\### Validation des données
-
-\- \[x\] Import Excel fonctionnel
-
-\- \[x\] Calculs automatiques corrects
-
-\- \[x\] Filtres dynamiques opérationnels
-
-\- \[x\] Animations fluides
-
-\- \[x\] Interface responsive
-
-  
-
-\## 🤝 Contribution
+## 🤝 Contribution
 
   
 
@@ -354,146 +287,130 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 
   
 
-1\. \*\*Fork\*\* le projet
+1. **Fork** le projet
 
-2\. \*\*Clonez\*\* votre fork :
+2. **Clonez** votre fork :
 
-   \`\`\`bash
-
+```
    git clone https://github.com/\[votre-username\]/assurance-auto-dashboard.git
+```
 
-   \`\`\`
+3. **Créez une branche** pour votre fonctionnalité :
 
-3\. \*\*Créez une branche\*\* pour votre fonctionnalité :
-
-   \`\`\`bash
-
+```bash
    git checkout -b feature/ma-nouvelle-fonctionnalite
+```
 
-   \`\`\`
+4. **Commitez vos changements** :
 
-4\. \*\*Commitez vos changements\*\* :
-
-   \`\`\`bash
-
+```bash
    git commit -m "Ajout d'une nouvelle fonctionnalité"
+```
 
-   \`\`\`
+5. **Pushez vers votre fork** :
 
-5\. \*\*Pushez vers votre fork\*\* :
-
-   \`\`\`bash
-
+```bash
    git push origin feature/ma-nouvelle-fonctionnalite
+```
 
-   \`\`\`
+6. **Ouvrez une Pull Request**
 
-6\. \*\*Ouvrez une Pull Request\*\*
+### Bonnes pratiques
 
-  
+- Suivez le style de code existant
 
-\### Bonnes pratiques
+- Ajoutez des commentaires pour le code complexe
 
-\- Suivez le style de code existant
+- Testez vos modifications avant de soumettre
 
-\- Ajoutez des commentaires pour le code complexe
+- Mettez à jour la documentation si nécessaire
 
-\- Testez vos modifications avant de soumettre
+## 📄 Licence
 
-\- Mettez à jour la documentation si nécessaire
+Ce projet est sous licence **MIT**. Voir le fichier (LICENSE) pour plus de détails.
 
-  
+### Vous pouvez :
 
-\## 📄 Licence
+- Utiliser librement le code
 
-  
+- Modifier et distribuer
 
-Ce projet est sous licence \*\*MIT\*\*. Voir le fichier \[LICENSE\](LICENSE) pour plus de détails.
+- Utiliser à des fins commerciales
 
-  
-
-\### Vous pouvez :
-
-\- Utiliser librement le code
-
-\- Modifier et distribuer
-
-\- Utiliser à des fins commerciales
-
-\- Sous-licencier
+- Sous-licencier
 
   
 
-\### Vous devez :
+### Vous devez :
 
-\- Inclure la notice de copyright originale
+- Inclure la notice de copyright originale
 
-\- Inclure une copie de la licence
-
-  
-
-\## 👨‍💻 Auteur
+- Inclure une copie de la licence
 
   
 
-\*\*Étudiant :\*\* \[Votre Nom\]  
-
-\*\*Établissement :\*\* ISTA Ouarzazate  
-
-\*\*Filière :\*\* Développement Digital (Web FullStack)  
-
-\*\*Année :\*\* 2025/2026  
-
-\*\*Module :\*\* Culture et Techniques Avancée du Numérique  
+## 👨‍💻 Auteur
 
   
 
-\### Remerciements
+**Étudiant :** \[Votre Nom\]  
 
-\- \*\*DeepSeek AI\*\* pour l'aide au développement
+**Établissement :** ISTA Ouarzazate  
 
-\- \*\*Bootstrap\*\* pour le framework CSS
+**Filière :** Développement Digital (Web FullStack)  
 
-\- \*\*SheetJS\*\* pour la lecture des fichiers Excel
+**Année :** 2025/2026  
 
-\- \*\*Tous les contributeurs\*\* open source
-
-  
-
-\## 🌐 Support
+**Module :** Culture et Techniques Avancée du Numérique  
 
   
 
-\- \*\*Problèmes techniques\*\* : \[Ouvrir une issue\](https://github.com/\[votre-username\]/assurance-auto-dashboard/issues)
+### Remerciements
 
-\- \*\*Questions\*\* : Consultez la section \[FAQ\](#)
+- **DeepSeek AI** pour l'aide au développement
 
-\- \*\*Améliorations\*\* : Proposez vos idées via les issues
+- **Bootstrap** pour le framework CSS
+
+- **SheetJS** pour la lecture des fichiers Excel
+
+- **Tous les contributeurs** open source
 
   
 
-\## 📞 Contact
+## 🌐 Support
+
+  
+
+- **Problèmes techniques** : \[Ouvrir une issue\](https://github.com/\[votre-username\]/assurance-auto-dashboard/issues)
+
+- **Questions** : Consultez la section \[FAQ\](#)
+
+- **Améliorations** : Proposez vos idées via les issues
+
+  
+
+## 📞 Contact
 
   
 
 Pour toute question ou suggestion :
 
-\- \*\*Email\*\* : votre.email@example.com
+- **Email** : votre.email@example.com
 
-\- \*\*GitHub\*\* : \[@votre-username\](https://github.com/\[votre-username\])
+- **GitHub** : \[@votre-username\](https://github.com/\[votre-username\])
 
-\- \*\*Site web\*\* : \[votresite.com\](https://votresite.com)
-
-  
-
-\---
+- **Site web** : \[votresite.com\](https://votresite.com)
 
   
 
 
 
+  
 
-\### ⭐ Si ce projet vous a été utile, n'oubliez pas de mettre une étoile !
+
+
+
+### ⭐ Si ce projet vous a été utile, n'oubliez pas de mettre une étoile !
 
   
 
@@ -501,7 +418,7 @@ Pour toute question ou suggestion :
 
   
 
-\*\*Développé avec ❤️ pour l'ISTA Ouarzazate\*\*
+**Développé par Ayoub Aguezar pour l'ISTA Ouarzazate**
 
   
 
