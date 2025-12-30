@@ -1,22 +1,19 @@
-\# 📊 Dashboard Assurance Auto - Tableau de Bord Interactif
+# 📊 Dashboard Assurance Auto - Tableau de Bord Interactif
 
   
 
-\[!\[HTML5\](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)\](https://developer.mozilla.org/fr/docs/Web/HTML)
-
-\[!\[CSS3\](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)\](https://developer.mozilla.org/fr/docs/Web/CSS)
-
-\[!\[Bootstrap\](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)\](https://getbootstrap.com/)
-
-\[!\[jQuery\](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)\](https://jquery.com/)
-
-\[!\[JavaScript\](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)\](https://developer.mozilla.org/fr/docs/Web/JavaScript)
-
-\[!\[SheetJS\](https://img.shields.io/badge/SheetJS-217346?style=for-the-badge&logo=excel&logoColor=white)\](https://sheetjs.com/)
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" title="Bootstrap"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="40" title="jQuery"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/>
+  <img src="https://sheetjs.com/sketch128.png" width="40" title="SheetJS"/>
+</p>
 
   
 
-\## 🚗 Aperçu
+## 🚗 Aperçu
 
   
 
@@ -24,7 +21,7 @@ Dashboard interactif pour la gestion d'une agence d'assurance automobile au Maro
 
   
 
-\*\*Live Demo:\*\* \[Cliquez ici pour tester\](https://\[votre-username\].github.io/assurance-auto-dashboard/)
+**Live Demo:** [Cliquez ici pour tester\](https://\[votre-username\].github.io/assurance-auto-dashboard/)
 
   
 
@@ -32,19 +29,19 @@ Dashboard interactif pour la gestion d'une agence d'assurance automobile au Maro
 
   
 
-\## ✨ Fonctionnalités Principales
+## ✨ Fonctionnalités Principales
 
   
 
-\### 📈 Import de Données
+### 📈 Import de Données
 
-\- \*\*Import Excel\*\* : Support des formats .xlsx, .xls, .csv
+- **Import Excel** : Support des formats .xlsx, .xls, .csv
 
-\- \*\*Drag & Drop\*\* : Interface intuitive de glisser-déposer
+- **Drag & Drop** : Interface intuitive de glisser-déposer
 
-\- \*\*Validation\*\* : Vérification du format des fichiers
+- **Validation** : Vérification du format des fichiers
 
-\- \*\*Exemple inclus\*\* : Fichier modèle téléchargeable
+- **Exemple inclus** : Fichier modèle téléchargeable
 
   
 
