@@ -293,7 +293,7 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 2. **Clonez** votre fork :
 
 ```
-   git clone https://github.com/\[votre-username\]/assurance-auto-dashboard.git
+   git clone https://github.com/Ayoub-glitsh/assurance-auto-dashboard.git
 ```
 
 3. **Créez une branche** pour votre fonctionnalité :
@@ -382,9 +382,9 @@ Ce projet est sous licence **MIT**. Voir le fichier (LICENSE) pour plus de déta
 
   
 
-- **Problèmes techniques** : \[Ouvrir une issue\](https://github.com/Ayoub-glitsh/assurance-auto-dashboard/tree/main)
+- **Problèmes techniques** : [Ouvrir une issue] https://github.com/Ayoub-glitsh/assurance-auto-dashboard/tree/main
 
-- **Questions** : Consultez la section \[FAQ\](#)
+- **Questions** : Consultez la section FAQ
 
 - **Améliorations** : Proposez vos idées via les issues
 
@@ -398,9 +398,9 @@ Pour toute question ou suggestion :
 
 - **Email** : ayoubaguezzar1@gmail.com
 
-- **GitHub** : (https://github.com/Ayoub-glitsh)
+- **GitHub** : https://github.com/Ayoub-glitsh
 
-- **Site web** : \[votresite.com\](https://votresite.com)
+- **Site web** : https://gleaming-caramel-c3fadf.netlify.app/
 
   
 
