@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=3500&pause=800&color=1E3C72&center=true&vCenter=true&width=900&lines=Dashboard+Assurance+Auto+-+Tableau+de+Bord+Interactif" />
+</p>
+
+
 # 📊 Dashboard Assurance Auto - Tableau de Bord Interactif
 
   
