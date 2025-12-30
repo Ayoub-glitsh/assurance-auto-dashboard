@@ -381,7 +381,7 @@ Ce projet est sous licence **MIT**. Voir le fichier (LICENSE) pour plus de déta
 
   
 
-- **Problèmes techniques** : \[Ouvrir une issue\](https://github.com/\[votre-username\]/assurance-auto-dashboard/issues)
+- **Problèmes techniques** : \[Ouvrir une issue\](https://github.com/Ayoub-glitsh/assurance-auto-dashboard/tree/main)
 
 - **Questions** : Consultez la section \[FAQ\](#)
 
@@ -395,9 +395,9 @@ Ce projet est sous licence **MIT**. Voir le fichier (LICENSE) pour plus de déta
 
 Pour toute question ou suggestion :
 
-- **Email** : votre.email@example.com
+- **Email** : ayoubaguezzar1@gmail.com
 
-- **GitHub** : \[@votre-username\](https://github.com/\[votre-username\])
+- **GitHub** : (https://github.com/Ayoub-glitsh)
 
 - **Site web** : \[votresite.com\](https://votresite.com)
 
@@ -412,9 +412,7 @@ Pour toute question ou suggestion :
 
 ### ⭐ Si ce projet vous a été utile, n'oubliez pas de mettre une étoile !
 
-  
-
-\[!\[Star History Chart\](https://api.star-history.com/svg?repos=\[votre-username\]/assurance-auto-dashboard&type=Date)\](https://star-history.com/#\[votre-username\]/assurance-auto-dashboard&Date)
+  https://github.com/Ayoub-glitsh/assurance-auto-dashboard/edit/main/
 
   
 
