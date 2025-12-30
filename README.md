@@ -21,11 +21,7 @@ Dashboard interactif pour la gestion d'une agence d'assurance automobile au Maro
 
   
 
-**Live Demo:** [Cliquez ici pour tester\](https://\[votre-username\].github.io/assurance-auto-dashboard/)
-
-  
-
-!\[Aperçu du Dashboard\](https://via.placeholder.com/800x400.png?text=Dashboard+Assurance+Auto+Preview)
+**Live Demo:** (https://lively-bunny-4e0b1e.netlify.app/)
 
   
 
@@ -45,59 +41,58 @@ Dashboard interactif pour la gestion d'une agence d'assurance automobile au Maro
 
   
 
-\### 📊 Visualisation des Données
+### 📊 Visualisation des Données
 
-\- \*\*Indicateurs clés\*\* : Contrats, primes moyennes, valeurs totales
+- **Indicateurs clés** : Contrats, primes moyennes, valeurs totales
 
-\- \*\*Tableau interactif\*\* : Affichage des contrats avec filtrage
+- **Tableau interactif** : Affichage des contrats avec filtrage
 
-\- \*\*Graphiques\*\* : Répartition par type d'assurance et véhicule
+- **Graphiques** : Répartition par type d'assurance et véhicule
 
-\- \*\*Animations\*\* : Compteurs dynamiques de 0 à la valeur finale
+- **Animations** : Compteurs dynamiques de 0 à la valeur finale
+
+  
+### 🔍 Analyse Avancée
+
+- **Filtres dynamiques** : Ville, type d'assurance, type de véhicule
+
+- **Recherche** : Filtrage en temps réel
+
+- **Réinitialisation** : Bouton de reset des filtres
+
+- **Responsive** : Compatible mobile, tablette et desktop
 
   
 
-\### 🔍 Analyse Avancée
+### 🎨 Interface Utilisateur
 
-\- \*\*Filtres dynamiques\*\* : Ville, type d'assurance, type de véhicule
+- **Design moderne** : Bootstrap 5 avec thème personnalisé
 
-\- \*\*Recherche\*\* : Filtrage en temps réel
+- **Animations** : Entrées fluides avec Animate.css
 
-\- \*\*Réinitialisation\*\* : Bouton de reset des filtres
+- **Icônes** : Bibliothèque Bootstrap Icons
 
-\- \*\*Responsive\*\* : Compatible mobile, tablette et desktop
-
-  
-
-\### 🎨 Interface Utilisateur
-
-\- \*\*Design moderne\*\* : Bootstrap 5 avec thème personnalisé
-
-\- \*\*Animations\*\* : Entrées fluides avec Animate.css
-
-\- \*\*Icônes\*\* : Bibliothèque Bootstrap Icons
-
-\- \*\*Feedback\*\* : Messages d'alerte et confirmations
+- **Feedback** : Messages d'alerte et confirmations
 
   
 
-\## 🚀 Installation
+## 🚀 Installation
 
   
 
-\### Option 1 : Utilisation directe
+### Option 1 : Utilisation directe
 
-1\. Téléchargez les fichiers
+1. Téléchargez les fichiers
 
-2\. Ouvrez \`index.html\` dans votre navigateur
+2. Ouvrez `index.html` dans votre navigateur
 
-3\. Commencez à importer vos fichiers Excel
+3. Commencez à importer vos fichiers Excel
 
   
 
-\### Option 2 : Déploiement local
+### Option 2 : Déploiement local
 
-\`\`\`bash
+```bash
 
 \# Clonez le repository
 
@@ -125,81 +120,80 @@ open index.html
 
 xdg-open index.html
 
-\`\`\`
+```
 
   
 
-\### Option 3 : Déploiement GitHub Pages
+### Option 3 : Déploiement GitHub Pages
 
-1\. Forkez ce repository
+1. Forkez ce repository
 
-2\. Activez GitHub Pages dans les paramètres
+2. Activez GitHub Pages dans les paramètres
 
-3\. Votre site sera disponible à : \`https://\[votre-username\].github.io/assurance-auto-dashboard\`
-
-  
-
-\## 📋 Format des Données Excel
+3. Votre site sera disponible à : `https://\[votre-username\].github.io/assurance-auto-dashboard`
 
   
 
-\### Colonnes requises :
-
-| Colonne | Description | Exemple |
-
-|---------|-------------|---------|
-
-| \*\*Nom\_Prénom\*\* | Nom complet du client | El Amrani Youssef |
-
-| \*\*CIN\*\* | Carte d'identité nationale | AB00001 |
-
-| \*\*Ville\*\* | Ville du client | Ouarzazate |
-
-| \*\*Type\_Vehicule\*\* | Type de véhicule | Voiture / Moto / Camion |
-
-| \*\*Marque\*\* | Marque du véhicule | Renault |
-
-| \*\*Année\*\* | Année du véhicule | 2011 |
-
-| \*\*Valeur\*\* | Valeur en MAD | 93000 |
-
-| \*\*Type\_Assurance\*\* | Type de contrat | Tiers / Tous Risques |
-
-| \*\*Prime\_Base\*\* | Prime de base en MAD | 1560 |
-
-| \*\*Date\_Souscription\*\* | Date de souscription | 02/01/2025 |
+## 📋 Format des Données Excel
 
   
 
-\### Formats de date acceptés :
+### Colonnes requises
 
-\- JJ/MM/AAAA
+| Colonne             | Description                   | Exemple                   |
+|---------------------|-------------------------------|---------------------------|
+| **Nom_Prénom**      | Nom complet du client          | El Amrani Youssef         |
+| **CIN**             | Carte d'identité nationale    | AB00001                   |
+| **Ville**           | Ville du client                | Ouarzazate                |
+| **Type_Vehicule**   | Type de véhicule               | Voiture / Moto / Camion   |
+| **Marque**          | Marque du véhicule             | Renault                   |
+| **Année**           | Année du véhicule              | 2011                      |
+| **Valeur**          | Valeur en MAD                  | 93000                     |
+| **Type_Assurance**  | Type de contrat                | Tiers / Tous Risques      |
+| **Prime_Base**      | Prime de base en MAD           | 1560                      |
+| **Date_Souscription** | Date de souscription        | 02/01/2025                |
 
-\- MM/JJ/AAAA
-
-\- AAAA-MM-JJ
-
-  
-
-\### Exemple de fichier :
-
-Un fichier exemple est disponible dans le dossier \`examples/\` ou téléchargeable depuis l'interface.
-
-  
-
-\## 🛠️ Technologies Utilisées
 
   
 
-\- \*\*Frontend\*\* : HTML5, CSS3, JavaScript (ES6+)
+### Formats de date acceptés
 
-\- \*\*Frameworks\*\* : Bootstrap 5.3, jQuery 3.6
+- **JJ/MM/AAAA**
+- **MM/JJ/AAAA**
+- **AAAA-MM-JJ**
 
-\- \*\*Bibliothèques\*\* : SheetJS (xlsx), Animate.css, Bootstrap Icons
+---
 
-\- \*\*Outils\*\* : Git, GitHub Pages
+### Exemple de fichier
 
-  
+Un fichier exemple est disponible dans le dossier `examples/`  
+ou téléchargeable directement depuis l’interface de l’application.
+
+---
+
+## 🛠️ Technologies Utilisées
+
+### 🌐 Frontend
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" title="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="35" title="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35" title="JavaScript"/>
+</p>
+
+
+### 📚 Bibliothèques
+<p>
+  <img src="https://sheetjs.com/sketch128.png" width="35" title="SheetJS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="35" title="Bootstrap"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="35" title="jQuery"/>
+</p>
+
+### ⚙️ Outils
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="35" title="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="35" title="GitHub"/>
+</p>
+
 
 \## 📁 Structure du Projet
 
