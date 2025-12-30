@@ -33,7 +33,7 @@ Dashboard interactif pour la gestion d'une agence d'assurance automobile au Maro
 
   
 
-**Live Demo:** (https://lively-bunny-4e0b1e.netlify.app/)
+**Live Demo:** https://lively-bunny-4e0b1e.netlify.app/
 
   
 
@@ -108,7 +108,7 @@ Dashboard interactif pour la gestion d'une agence d'assurance automobile au Maro
 
 \# Clonez le repository
 
-git clone https://github.com/\[votre-username\]/assurance-auto-dashboard.git
+git clone https://github.com/Ayoub-glitsh/assurance-auto-dashboard.git
 
   
 
@@ -218,10 +218,9 @@ assurance-auto-dashboard/
 │
 ├── index.html                    # Page principale
 ├── README.md                     # Documentation
-├── Aguezar_Ayoub.xlsx                      # Licence MIT
-├── Aguezar_Ayoub.ppdx                  # Ressources statiques
-│   Aguezar_Ayoub.pdf                    # Styles CSS
-│   
+├── Aguezar_Ayoub.xlsx                      
+├── Aguezar_Ayoub.ppdx                  
+│   Aguezar_Ayoub.pdf                  
 
 
 ```
